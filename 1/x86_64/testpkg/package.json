@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "name": "testpkg",
+    "lateststablever": "0",
+    "creator": "texx3",
+  },
+  "versions" : {
+    "0" : {
+      "archive": "testpkg-0.tar.gz",
+      "sha256": "TBD",
+      "deps" : [
+        {"depcandidate":"example","depver":">=2"},
+      ],
+      "preinstall": "preinstall-0.sh",
+      "postinstall": "postinstall-0.sh",
+      "preuninstall": "preuninstall-0.sh",
+      "postuninstall": "postuninstall-0.sh",
+    }
+  }
+}
