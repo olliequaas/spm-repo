@@ -1,1 +1,6 @@
-
+{
+  "testpkg" : {
+    "candidate_folder": "testpkg",
+    "default_ver": "0",
+  },
+}
