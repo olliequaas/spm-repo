@@ -1,1 +1,10 @@
-
+{
+  "metadata" : {
+    "version": "0",
+    "creator": "texx3",
+    "license": "GNU GPLv3"
+  },
+  "deps" : [
+    {"pkgname":"test2","version":"20"},
+  ],
+}
