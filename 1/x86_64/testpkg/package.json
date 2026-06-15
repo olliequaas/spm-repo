@@ -5,6 +5,6 @@
     "license": "GNU GPLv3"
   },
   "deps" : [
-    {"pkgname":"test2","version":"20"},
+    {"pkgname":"test2","constraint":">=20"},
   ],
 }
