@@ -14,11 +14,7 @@
       "preinstall": "preinstall-0.sh",
       "postinstall": "postinstall-0.sh",
       "preuninstall": "preuninstall-0.sh",
-      "postuninstall": "postuninstall-0.sh",
-      "man" : {
-        "upd": true,
-        "file": "testpkg-0.1.gz"
-      }
+      "postuninstall": "postuninstall-0.sh"
     }
   }
 }
