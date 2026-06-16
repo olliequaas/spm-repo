@@ -6,3 +6,6 @@ SPM repositories follow this structure: `{url to repo root}/{moldy os version nu
 For example, `https://github.com/olliequaas/spm-repo/1/x86_64/testpkg/package.json`
 
 The file packagelist.json contains data about the repository SPM looks through. There, it can find the install candidate folder for the package you are installing, the default version (the version SPM automatically installs unless you specify a version), and more metadata. The file package.json in each install candidate folder contains dependencies of the package and their respective versions, pre and post install/uninstall script paths, updates to man if needed, and the package archive, normally in *.tar.gz format.
+
+# ALWAYS USE SemVer
+[SemVer](https://semver.org/spec/v2.0.0.html) EVERYTHING ALL OF IT
