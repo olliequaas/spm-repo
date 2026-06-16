@@ -1,7 +1,6 @@
 # spm-repo
 The official repo that comes with spm by default. You can build more repositories off of this one or submit your own packages to be used in the official repo.
----
-# Repo Structure
+# Repository Structure
 SPM repositories follow this structure: `{url to repo root}/{moldy os version number}/{architecture}/{package install candidate found in packagelist.json for the package name}/package.json`
 
 For example, `https://github.com/olliequaas/spm-repo/1/x86_64/testpkg/package.json`
