@@ -1,6 +1,6 @@
 {
   "testpkg" : {
     "candidatefolder": "testpkg",
-    "defaultver": "0",
-  },
+    "stablever": "0"
+  }
 }
